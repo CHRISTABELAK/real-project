@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Web Development Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="./image/logo_200x200.png"></a>
+        <div class="navlinks" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                 <li><a href="">Home</a></li>
+                <li><a href="">Marketing</a></li>
+                <li><a href="">Aboutus</a></li>
+                <li><a href="">Testimonial|Blogs</a></li>
+                
+             </ul>
+        </div>
+       
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+    </nav>
+    <div class="textbox">
+        <h1>Web Development Studio</h1>
+        <p>Your guide to summiting the peak of digital success</p>
+    </div>
+    <div>
+        <center><img src="./image/Orange_circle_.png" alt="circle" width="30%" ></center>
+    </div>
+       
+</section>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li> <a href="#"></a>Quick Links</li>
+                    <li> <a href="#"></a>Contact us</li>
+                    <li> <a href="#"></a>Message us</li>
+                    <li> <a href="#"></a>Email us</li>
+             </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact us</h4>
+                <ul>
+                    <li> <a href="#"></a>Quick Links</li>
+                    <li> <a href="#"></a>Contact us</li>
+                    <li> <a href="#"></a>Message us</li>
+                    <li> <a href="#"></a>Email us</li>
+             </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Message us</h4>
+                <ul>
+                    <li> <a href="#"></a>Quick Links</li>
+                    <li> <a href="#"></a>Contact us</li>
+                    <li> <a href="#"></a>Message us</li>
+                    <li> <a href="#"></a>Email us</li>
+             </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Email us</h4>
+                <ul>
+                    <li> <a href="#"></a>Quick Links</li>
+                    <li> <a href="#"></a>Contact us</li>
+                    <li> <a href="#"></a>Message us</li>
+                    <li> <a href="#"></a>Email us</li>
+             </ul>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+<!------------Javascript for toggle------------->
+
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0"
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+    
+
+   
+</body>
+</html>
